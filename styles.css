@@ -1433,26 +1433,43 @@ select {
 /* ============================================================
    RESPONSIVE
    ============================================================ */
+
+/* ── TABLET  (≤ 1024px) ────────────────────────────────────── */
 @media (max-width: 1024px) {
+  .nav {
+    padding: 0 24px;
+  }
+
+  .nav-logo-img {
+    height: 68px;
+  }
+
   .why-grid {
     grid-template-columns: 1fr;
     gap: 48px;
   }
 
+  .why-content {
+    padding-right: 0;
+  }
+
   .why-collage {
-    height: 450px;
+    height: 420px;
   }
 
   .services-grid {
     grid-template-columns: 1fr 1fr;
+    gap: 24px;
   }
 
   .artists-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
   .testimonials-grid {
     grid-template-columns: 1fr 1fr;
+    gap: 24px;
   }
 
   .booking-grid {
@@ -1460,14 +1477,25 @@ select {
     gap: 48px;
   }
 
+  .booking-info {
+    padding-right: 0;
+  }
+
   .footer-top {
     grid-template-columns: 1fr 1fr;
+    gap: 36px;
   }
 }
 
+/* ── MOBILE  (≤ 768px) ─────────────────────────────────────── */
 @media (max-width: 768px) {
+  /* --- Navigation --- */
   .nav {
-    padding: 0 20px;
+    padding: 0 18px;
+  }
+
+  .nav-inner {
+    height: 64px;
   }
 
   .nav-links {
@@ -1478,61 +1506,75 @@ select {
     display: flex;
   }
 
-  .nav-inner {
-    height: 70px;
+  .nav-logo-img {
+    height: 54px;
   }
 
+  /* --- Hero --- */
   .hero-content {
-    padding: 100px 20px 30px;
+    padding: 96px 20px 40px;
   }
 
   .hero-title {
-    font-size: clamp(36px, 10vw, 60px);
+    font-size: clamp(34px, 10vw, 58px);
+    letter-spacing: 2px;
+  }
+
+  .hero-subtitle {
+    font-size: 15px;
+    margin-bottom: 32px;
   }
 
   .hero-ctas {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .hero-ctas .btn {
     width: 100%;
-    max-width: 300px;
+    max-width: 320px;
     justify-content: center;
   }
 
-  .services-grid {
-    grid-template-columns: 1fr;
+  /* --- General section spacing --- */
+  .section-padding {
+    padding: 64px 0;
   }
 
-  .artists-grid {
-    grid-template-columns: repeat(2, 1fr);
+  /* --- Why Section --- */
+  .why-content {
+    padding-right: 0;
+  }
+
+  .why-collage {
+    height: 320px;
+  }
+
+  .collage-img-1 {
+    width: 58%;
+    height: 62%;
+  }
+
+  .collage-img-2 {
+    width: 48%;
+    height: 52%;
+    top: 18%;
+  }
+
+  .collage-img-3 {
+    width: 64%;
+    height: 38%;
+  }
+
+  /* --- Services --- */
+  .services-grid {
+    grid-template-columns: 1fr;
     gap: 20px;
   }
 
-  .portfolio-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .testimonials-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .section-padding {
-    padding: 72px 0;
-  }
-
-  .booking-form {
-    padding: 32px 24px;
-  }
-
-  .form-row {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-top {
-    grid-template-columns: 1fr;
-    gap: 32px;
+  .services-ctas {
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .services-ctas .btn {
@@ -1540,35 +1582,262 @@ select {
     justify-content: center;
   }
 
-  .why-collage {
-    height: 380px;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero-title {
-    font-size: clamp(30px, 9vw, 48px);
+  /* --- Artists --- */
+  .artists-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
 
-  .section-title {
-    font-size: clamp(28px, 7vw, 40px);
+  .artist-info {
+    padding: 16px 14px;
   }
 
-  .container {
-    padding: 0 16px;
+  .artist-name {
+    font-size: 17px;
   }
 
-  .service-card {
-    padding: 36px 24px;
+  .artist-book-btn {
+    padding: 10px 12px;
+    font-size: 12px;
   }
 
+  /* --- Portfolio --- */
   .portfolio-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 4px;
   }
 
+  /* --- Testimonials --- */
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .testimonial-card {
+    padding: 32px 24px;
+  }
+
+  /* --- Booking --- */
+  .booking-info {
+    padding-right: 0;
+  }
+
+  .booking-form {
+    padding: 28px 20px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  /* --- FAQ --- */
+  .faq-container {
+    margin-top: 52px;
+    padding-top: 40px;
+  }
+
+  .faq-question {
+    font-size: 15px;
+    padding: 18px 18px;
+  }
+
+  .faq-answer {
+    padding: 0 18px;
+  }
+
+  .faq-item.active .faq-answer {
+    padding: 0 18px 18px;
+  }
+
+  /* --- Footer --- */
+  .footer {
+    padding: 48px 0 24px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  /* --- Back-to-top --- */
+  .back-to-top-btn {
+    bottom: 20px;
+    right: 16px;
+    width: 42px;
+    height: 42px;
+  }
+}
+
+/* ── SMALL MOBILE  (≤ 480px) ───────────────────────────────── */
+@media (max-width: 480px) {
+  /* --- Navigation --- */
+  .nav {
+    padding: 0 14px;
+  }
+
+  .nav-inner {
+    height: 58px;
+  }
+
+  .nav-logo-img {
+    height: 46px;
+  }
+
+  /* --- Hero --- */
+  .hero-content {
+    padding: 88px 16px 36px;
+  }
+
+  .hero-title {
+    font-size: clamp(28px, 9vw, 44px);
+    letter-spacing: 1px;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+  }
+
+  /* --- General --- */
+  .section-padding {
+    padding: 52px 0;
+  }
+
+  .section-title {
+    font-size: clamp(26px, 8vw, 38px);
+  }
+
+  .container {
+    padding: 0 14px;
+  }
+
+  /* --- Why Section --- */
+  .why-collage {
+    height: 260px;
+  }
+
+  /* --- Services --- */
+  .service-card {
+    padding: 32px 20px;
+  }
+
+  /* --- Artists --- */
   .artists-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .artist-card {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .artist-img-wrap {
+    width: 120px;
+    min-width: 120px;
+    aspect-ratio: unset;
+    height: auto;
+  }
+
+  .artist-info {
+    text-align: left;
+    padding: 16px;
+  }
+
+  .artist-actions {
+    margin-top: 12px;
+  }
+
+  /* --- Portfolio --- */
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+  }
+
+  /* --- Testimonials --- */
+  .testimonial-card {
+    padding: 24px 18px;
+  }
+
+  /* --- Booking form --- */
+  .booking-form {
+    padding: 22px 16px;
+  }
+
+  /* --- FAQ --- */
+  .faq-question {
+    font-size: 14px;
+    padding: 16px 14px;
+    gap: 12px;
+  }
+
+  .faq-answer {
+    padding: 0 14px;
+  }
+
+  .faq-item.active .faq-answer {
+    padding: 0 14px 16px;
+  }
+
+  /* --- Footer --- */
+  .footer-bottom {
+    gap: 6px;
+  }
+
+  .mobile-menu a {
+    font-size: 22px;
+    letter-spacing: 3px;
+  }
+}
+
+/* ── VERY SMALL MOBILE  (≤ 360px) ──────────────────────────── */
+@media (max-width: 360px) {
+  .nav-logo-img {
+    height: 40px;
+  }
+
+  .hero-title {
+    font-size: clamp(24px, 8vw, 36px);
+  }
+
+  .hero-subtitle {
+    font-size: 13px;
+  }
+
+  .btn {
+    padding: 14px 24px;
+    font-size: 13px;
+  }
+
+  .section-title {
+    font-size: clamp(22px, 7.5vw, 32px);
+  }
+
+  .artist-img-wrap {
+    width: 100px;
+    min-width: 100px;
+  }
+
+  .service-card {
+    padding: 28px 16px;
+  }
+
+  .booking-form {
+    padding: 18px 12px;
+  }
+
+  .faq-question {
+    font-size: 13px;
+  }
+
+  .mobile-menu a {
+    font-size: 20px;
   }
 }
 
