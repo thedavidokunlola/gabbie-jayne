@@ -3,138 +3,251 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alchemy Tattoo — Indie Tattoo Studio | Custom Tattoos & Piercing</title>
-  <meta name="description" content="Alchemy Tattoo is a premium indie tattoo studio (EST 2020) specializing in custom tattoo designs, piercings, and tattoo removal. Book your session with our award-winning artists today.">
+  <title>Gabbie Jayne — Luxury African Fashion | Abuja, Nigeria</title>
+  <meta name="description" content="Gabbie Jayne is a luxury African fashion maison based in Abuja, Nigeria (@gabbiejayne). Made-to-Order, Bespoke Tailoring, and Ready-to-Wear Kimonos & Bubus. Express worldwide shipping.">
+  <meta name="keywords" content="Gabbie Jayne, African luxury fashion, bespoke tailoring Abuja, made to order fashion, Nigerian designer, ready to wear kimonos, luxury bubus, Abuja fashion brand">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gabbie Jayne — Luxury African Fashion">
+  <meta property="og:description" content="Made-to-Order pieces, Bespoke Tailoring, and Ready-to-Wear Kimonos & Bubus. Handcrafted in Abuja, Nigeria with worldwide delivery.">
+  <meta property="og:image" content="images/gabbiejayne_1775565742_3870047810599033313_4010638589.jpg">
+
+  <!-- Google Fonts: Cormorant Garamond, Cinzel & Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Skip to Main Content Link (WCAG 2.4.1 Bypass Blocks) -->
+  <a href="#main-content" class="skip-link">Skip to Main Content</a>
 
-  <!-- ============================================================
-       NAVIGATION
-       ============================================================ -->
-  <nav class="nav" id="navbar">
-    <div class="nav-inner">
-      <ul class="nav-links">
-        <li><a href="#hero" id="nav-home">Home</a></li>
-        <li><a href="#why" id="nav-about">About</a></li>
-        <li><a href="#artists" id="nav-artists">Artists</a></li>
-      </ul>
-
-      <a href="#hero" class="nav-logo" id="nav-logo"><img src="images/alchemy-logo.png" alt="Alchemy Tattoo" class="nav-logo-img"></a>
-
-      <ul class="nav-links">
-        <li><a href="#services" id="nav-services">Services</a></li>
-        <li><a href="#portfolio" id="nav-portfolio">Portfolio</a></li>
-        <li><a href="#booking" class="nav-cta" id="nav-book-now">Book Now</a></li>
-      </ul>
-
-      <div class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
-        <span></span>
-        <span></span>
-        <span></span>
+  <header role="banner">
+    <!-- ============================================================
+         TOP MARQUEE
+         ============================================================ -->
+    <div class="top-marquee" aria-label="Brand announcements">
+      <div class="marquee-track">
+        <span>MADE-TO-ORDER</span>
+        <span class="marquee-bullet" aria-hidden="true">&bull;</span>
+        <span>BESPOKE TAILORING</span>
+        <span class="marquee-bullet" aria-hidden="true">&bull;</span>
+        <span>READY-TO-WEAR KIMONOS & BUBUS</span>
+        <span class="marquee-bullet" aria-hidden="true">&bull;</span>
+        <span>HANDCRAFTED IN ABUJA, NIGERIA</span>
+        <span class="marquee-bullet" aria-hidden="true">&bull;</span>
+        <span>WORLDWIDE EXPRESS SHIPPING</span>
+        <span class="marquee-bullet" aria-hidden="true">&bull;</span>
+        <span>@GABBIEJAYNE</span>
+        <span class="marquee-bullet" aria-hidden="true">&bull;</span>
+        <span>MADE-TO-ORDER</span>
+        <span class="marquee-bullet" aria-hidden="true">&bull;</span>
+        <span>BESPOKE TAILORING</span>
+        <span class="marquee-bullet" aria-hidden="true">&bull;</span>
+        <span>READY-TO-WEAR KIMONOS & BUBUS</span>
+        <span class="marquee-bullet" aria-hidden="true">&bull;</span>
+        <span>HANDCRAFTED IN ABUJA, NIGERIA</span>
+        <span class="marquee-bullet" aria-hidden="true">&bull;</span>
+        <span>WORLDWIDE EXPRESS SHIPPING</span>
+        <span class="marquee-bullet" aria-hidden="true">&bull;</span>
+        <span>@GABBIEJAYNE</span>
+        <span class="marquee-bullet" aria-hidden="true">&bull;</span>
       </div>
     </div>
-  </nav>
+
+    <!-- ============================================================
+         NAVIGATION
+         ============================================================ -->
+    <nav class="nav" id="navbar" aria-label="Main Navigation">
+      <div class="nav-inner">
+        <ul class="nav-links nav-links-left">
+          <li><a href="#maison" id="nav-maison">Maison</a></li>
+          <li><a href="#offerings" id="nav-offerings">Offerings</a></li>
+          <li><a href="#lookbook" id="nav-lookbook">Lookbook</a></li>
+        </ul>
+
+        <a href="#hero" class="nav-brand" id="nav-logo" aria-label="Gabbie Jayne Home">
+          <span class="brand-title">GABBIE JAYNE</span>
+          <span class="brand-subtitle">ABUJA &bull; MAISON</span>
+        </a>
+
+        <ul class="nav-links nav-links-right">
+          <li><a href="#craft" id="nav-craft">The Craft</a></li>
+          <li><a href="#testimonials" id="nav-reviews">Reviews</a></li>
+          <li><a href="#inquiry" class="nav-cta" id="nav-inquire">Inquire / Order</a></li>
+        </ul>
+
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
 
   <!-- Mobile Menu -->
-  <div class="mobile-menu" id="mobile-menu">
+  <div class="mobile-menu" id="mobile-menu" aria-label="Mobile Navigation" aria-hidden="true">
     <a href="#hero">Home</a>
-    <a href="#why">About</a>
-    <a href="#artists">Artists</a>
-    <a href="#services">Services</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#testimonials">Testimonials</a>
-    <a href="#booking">Contact</a>
-    <a href="#booking" class="nav-cta" style="margin-top: 12px;">Book Now</a>
+    <a href="#maison">The Maison</a>
+    <a href="#offerings">Offerings</a>
+    <a href="#lookbook">Lookbook</a>
+    <a href="#craft">The Craft</a>
+    <a href="#testimonials">Reviews</a>
+    <a href="#inquiry">Inquire</a>
+    <a href="#inquiry" class="btn btn-primary mobile-menu-cta" id="mobile-consultation-btn">Book Consultation</a>
   </div>
+
+  <main id="main-content" role="main">
 
   <!-- ============================================================
        HERO SECTION
        ============================================================ -->
-  <section class="hero" id="hero">
+  <section class="hero" id="hero" aria-label="Introduction">
     <div class="hero-bg">
-      <img src="images/hero-bg.jpg" alt="Tattoo studio atmosphere" loading="eager">
+      <img src="images/gabbiejayne_1775565742_3870047810599033313_4010638589.jpg" alt="Gabbie Jayne Luxury African Fashion" loading="eager">
+      <div class="hero-overlay"></div>
     </div>
 
     <div class="hero-content">
-
-      <h1 class="hero-title">
-        We Are An<br><span class="accent">Indie</span> Tattoo<br>Studio
+      <h1 class="hero-title reveal">
+        EFFORTLESS ELEGANCE.<br>
+        <span class="hero-italic">Impeccable</span> AFRICAN<br>
+        TAILORING.
       </h1>
 
-      <p class="hero-subtitle">
-        Where bold artistry meets personal expression. Every piece we create is a one-of-a-kind masterwork, tailored to your vision and crafted with obsessive precision.
+      <p class="hero-subtitle reveal reveal-delay-2">
+        Made-to-Order couture, bespoke tailoring, and signature Kimonos & Bubus. Handcrafted in Abuja with express worldwide delivery.
       </p>
 
-      <div class="hero-ctas">
-        <a href="#why" class="btn btn-outline" id="hero-about">
-          About Our Studio
+      <div class="hero-ctas reveal reveal-delay-3">
+        <a href="#lookbook" class="btn btn-primary" id="hero-lookbook-cta">
+          Explore Lookbook
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </a>
       </div>
-    </div>
 
+      <div class="hero-stats reveal reveal-delay-4">
+        <div class="hero-stat-item">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Handcrafted in Abuja</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="hero-stat-item">
+          <span class="stat-number">Bespoke</span>
+          <span class="stat-label">Made to Measure</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="hero-stat-item">
+          <span class="stat-number">Worldwide</span>
+          <span class="stat-label">Express Delivery</span>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- ============================================================
-       WHY CHOOSE US
+       BRAND PILLARS
        ============================================================ -->
-  <section class="why-section section-padding" id="why">
+  <section class="pillars-section">
     <div class="container">
-      <div class="why-grid">
-        <div class="why-content reveal">
-          <div class="diamond-divider" style="justify-content: flex-start;">
-            <div class="diamond-icon"></div>
+      <div class="pillars-grid">
+        <div class="pillar-card reveal reveal-delay-1">
+          <div class="pillar-num">01</div>
+          <h3 class="pillar-title">Made-to-Order</h3>
+          <p class="pillar-desc">Custom-sized slow fashion tailored to your exact measurements, eliminating excess and ensuring a flawless fit.</p>
+        </div>
+        <div class="pillar-card reveal reveal-delay-2">
+          <div class="pillar-num">02</div>
+          <h3 class="pillar-title">Bespoke Tailoring</h3>
+          <p class="pillar-desc">One-of-a-kind couture sculpted for galas, red carpets, weddings, and signature milestone occasions.</p>
+        </div>
+        <div class="pillar-card reveal reveal-delay-3">
+          <div class="pillar-num">03</div>
+          <h3 class="pillar-title">Kimonos & Bubus</h3>
+          <p class="pillar-desc">Signature flowing African silhouettes crafted with fluid drapes, rich fabrics, and effortless elegance.</p>
+        </div>
+        <div class="pillar-card reveal reveal-delay-4">
+          <div class="pillar-num">04</div>
+          <h3 class="pillar-title">Artisanal Craft</h3>
+          <p class="pillar-desc">Precision-drafted patterns and artisanal hand-finishing from our private atelier in Abuja, Nigeria.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       THE MAISON / ABOUT
+       ============================================================ -->
+  <section class="maison-section section-padding" id="maison">
+    <div class="container">
+      <div class="maison-grid">
+        <div class="maison-content reveal">
+          <div class="brand-divider">
+            <span class="divider-line"></span>
+            <span class="divider-text">THE MAISON</span>
+            <span class="divider-line"></span>
           </div>
-          <p class="section-label">Why Choose Us</p>
-          <h2 class="section-title">Crafting Art<br>That Lasts A<br><span class="accent-text">Lifetime</span></h2>
-          <p class="section-subtitle">
-            We're not your average tattoo shop. Our studio brings together world-class talent, premium materials, and an uncompromising commitment to your vision.
+          <p class="section-label">African Luxury</p>
+          <h2 class="section-title">Where Heritage Meets <span class="serif-accent">Modern Couture</span></h2>
+          
+          <p class="maison-lead">
+            Based in Abuja, Nigeria, <strong>Gabbie Jayne</strong> creates contemporary African luxury. We specialize in sculptural silhouettes, flowing drapes, and uncompromising tailoring.
           </p>
 
-          <div class="feature-row reveal reveal-delay-1">
-            <div class="feature-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          <div class="maison-features">
+            <div class="m-feat-item">
+              <div class="m-feat-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+              </div>
+              <div class="m-feat-info">
+                <h4>Exceptional Textiles</h4>
+                <p>Curated silks, structured brocades, and opulent jacquards.</p>
+              </div>
             </div>
-            <div class="feature-text">
-              <h4>Professional Artists</h4>
-              <p>Award-winning artists with 10+ years of combined experience in every major tattoo style.</p>
-            </div>
-          </div>
 
-          <div class="feature-row reveal reveal-delay-2">
-            <div class="feature-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            <div class="m-feat-item">
+              <div class="m-feat-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+              </div>
+              <div class="m-feat-info">
+                <h4>Slow-Fashion Mastery</h4>
+                <p>Each piece is individually constructed with zero shortcuts.</p>
+              </div>
             </div>
-            <div class="feature-text">
-              <h4>Premium Designs</h4>
-              <p>Custom-drawn artwork created exclusively for you — no flash, no repeats, ever.</p>
-            </div>
-          </div>
 
-          <div class="feature-row reveal reveal-delay-3">
-            <div class="feature-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-            </div>
-            <div class="feature-text">
-              <h4>Sterile & Safe</h4>
-              <p>Hospital-grade sterilization, single-use needles, and rigorous hygiene protocols for your safety.</p>
+            <div class="m-feat-item">
+              <div class="m-feat-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="m-feat-info">
+                <h4>Global Express Shipping</h4>
+                <p>Tracked door-to-door courier to the UK, USA, Canada, and worldwide.</p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="why-collage reveal reveal-delay-2">
-          <div class="collage-img collage-img-1">
-            <img src="images/collage-1.jpg" alt="Lion realism tattoo" loading="lazy">
-          </div>
-          <div class="collage-img collage-img-2">
-            <img src="images/collage-2.jpg" alt="Japanese dragon tattoo" loading="lazy">
-          </div>
-          <div class="collage-img collage-img-3">
-            <img src="images/collage-3.jpg" alt="Mandala tattoo in progress" loading="lazy">
+        <div class="maison-gallery-col reveal reveal-delay-2">
+          <div class="editorial-collage">
+            <div class="collage-col-main">
+              <div class="collage-item collage-item-featured">
+                <img src="images/gabbiejayne_1772473820_3844111010693131545_4010638589.jpg" alt="Gabbie Jayne Haute Couture Dress" loading="lazy">
+                <div class="collage-tag">Bespoke Couture</div>
+              </div>
+            </div>
+            <div class="collage-col-stacked">
+              <div class="collage-item collage-item-sub">
+                <img src="images/gabbiejayne_1758559259_3727387680611825160_4010638589.jpg" alt="Gabbie Jayne Made-to-Order Piece" loading="lazy">
+                <div class="collage-tag">Made to Order</div>
+              </div>
+              <div class="collage-item collage-item-sub">
+                <img src="images/gabbiejayne_1775565742_3870047819633589270_4010638589.jpg" alt="Gabbie Jayne Signature Bubu Silhouette" loading="lazy">
+                <div class="collage-tag">Signature Bubu</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -142,162 +255,97 @@
   </section>
 
   <!-- ============================================================
-       SERVICES
+       OFFERINGS & SERVICES
        ============================================================ -->
-  <section class="services-section section-padding" id="services">
+  <section class="offerings-section section-padding" id="offerings">
     <div class="container">
-      <div class="services-header reveal">
-        <div class="diamond-divider">
-          <div class="diamond-icon"></div>
+      <div class="section-header-center reveal">
+        <div class="brand-divider">
+          <span class="divider-line"></span>
+          <span class="divider-text">SERVICES</span>
+          <span class="divider-line"></span>
         </div>
         <p class="section-label">What We Offer</p>
-        <h2 class="section-title">Our Services</h2>
+        <h2 class="section-title">Designed for Distinction</h2>
         <p class="section-subtitle">
-          From intricate custom tattoos to professional piercings, we deliver exceptional artistry with every session.
+          From effortless ready-to-wear silhouettes to exclusive custom couture commissions.
         </p>
       </div>
 
-      <div class="services-grid">
-        <!-- Service 1: Tattoo -->
-        <div class="service-card reveal reveal-delay-1" id="service-tattoo">
-          <div class="service-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
-              <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
-              <path d="M2 2l7.586 7.586"></path>
-              <circle cx="11" cy="11" r="2"></circle>
-            </svg>
+      <div class="offerings-grid">
+        <!-- Card 1 -->
+        <div class="offering-card reveal reveal-delay-1" id="offering-made-to-order">
+          <div class="offering-img-wrap">
+            <img src="images/gabbiejayne_1772473820_3844110999158798053_4010638589.jpg" alt="Made to Order Fashion" loading="lazy">
+            <div class="offering-badge">Made to Order</div>
           </div>
-          <h3>Custom Tattoo</h3>
-          <p>Bespoke designs crafted from scratch by our artists. Every tattoo is a unique piece of art tailored to your personal story and aesthetic.</p>
-          <span class="service-price">Starting at $150 USD</span>
+          <div class="offering-info">
+            <h3 class="offering-title">Made-to-Order</h3>
+            <p class="offering-desc">
+              Curated catalog silhouettes tailored to your personal sizing and preferred palette.
+            </p>
+            <ul class="offering-list">
+              <li>&bull; Custom size calibration</li>
+              <li>&bull; Curated luxury textile selection</li>
+              <li>&bull; Sustainable slow-fashion production</li>
+            </ul>
+            <a href="#inquiry" class="offering-link">Inquire Made-to-Order &rarr;</a>
+          </div>
         </div>
 
-        <!-- Service 2: Piercing -->
-        <div class="service-card reveal reveal-delay-2" id="service-piercing">
-          <div class="service-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"></circle>
-              <circle cx="12" cy="12" r="3"></circle>
-              <line x1="12" y1="2" x2="12" y2="5"></line>
-              <line x1="12" y1="19" x2="12" y2="22"></line>
-            </svg>
+        <!-- Card 2 -->
+        <div class="offering-card reveal reveal-delay-2" id="offering-bespoke">
+          <div class="offering-img-wrap">
+            <img src="images/gabbiejayne_1772473820_3844111005869730340_4010638589.jpg" alt="Bespoke Tailoring" loading="lazy">
+            <div class="offering-badge">Haute Couture</div>
           </div>
-          <h3>Piercing</h3>
-          <p>Professional body piercing with premium titanium and surgical steel jewelry. Safe, precise, and beautifully executed every time.</p>
-          <span class="service-price">Starting at $50 USD</span>
+          <div class="offering-info">
+            <h3 class="offering-title">Bespoke Tailoring</h3>
+            <p class="offering-desc">
+              Custom couture created from sketch to final stitch for bridal, red carpet, and gala appearances.
+            </p>
+            <ul class="offering-list">
+              <li>&bull; One-on-one design consultation</li>
+              <li>&bull; 1-of-1 exclusive pattern drafting</li>
+              <li>&bull; Master hand-finishing & detail work</li>
+            </ul>
+            <a href="#inquiry" class="offering-link">Book Bespoke Tailoring &rarr;</a>
+          </div>
         </div>
 
-        <!-- Service 3: Tattoo Removal -->
-        <div class="service-card reveal reveal-delay-3" id="service-removal">
-          <div class="service-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M21 4H8l-7 8 7 8h13a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"></path>
-              <line x1="18" y1="9" x2="12" y2="15"></line>
-              <line x1="12" y1="9" x2="18" y2="15"></line>
-            </svg>
+        <!-- Card 3 -->
+        <div class="offering-card reveal reveal-delay-3" id="offering-kimonos-bubus">
+          <div class="offering-img-wrap">
+            <img src="images/gabbiejayne_1775565742_3870047823894976646_4010638589.jpg" alt="Ready to Wear Kimonos & Bubus" loading="lazy">
+            <div class="offering-badge">Signature Silhouettes</div>
           </div>
-          <h3>Tattoo Removal</h3>
-          <p>Advanced laser removal technology for clean, effective fading and removal. Start fresh or prepare for a stunning cover-up piece.</p>
-          <span class="service-price">Starting at $200 USD</span>
+          <div class="offering-info">
+            <h3 class="offering-title">Kimonos & Bubus</h3>
+            <p class="offering-desc">
+              Flowing African luxury designed for relaxed glamour, resort escapes, and effortless grandeur.
+            </p>
+            <ul class="offering-list">
+              <li>&bull; Fluid, breathable drape</li>
+              <li>&bull; Statement sleeves and necklines</li>
+              <li>&bull; Standard & custom length options</li>
+            </ul>
+            <a href="#inquiry" class="offering-link">Explore Kimonos & Bubus &rarr;</a>
+          </div>
         </div>
       </div>
 
-      <div class="services-ctas reveal">
-        <a href="#booking" class="btn btn-primary" id="services-book-now">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-          Book Now
-        </a>
-        <a href="#services" class="btn btn-outline" id="services-browse-all">
-          Browse All Services
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================================================
-       OUR ARTISTS
-       ============================================================ -->
-  <section class="artists-section section-padding" id="artists">
-    <div class="container">
-      <div class="artists-header reveal">
-        <div class="diamond-divider">
-          <div class="diamond-icon"></div>
-        </div>
-        <p class="section-label">The Collective</p>
-        <h2 class="section-title">Meet Our Artists</h2>
-        <p class="section-subtitle">
-          Masters of ink and precision. Each resident artist at Alchemy Tattoo brings a distinctive style and years of dedicated craft.
-        </p>
-      </div>
-
-      <div class="artists-grid">
-        <!-- Artist 1 (Owner) -->
-        <div class="artist-card reveal reveal-delay-1" id="artist-1">
-          <div class="artist-img-wrap">
-            <img src="artist/artist (2).png" alt="Eric - Owner & Founder" loading="lazy">
+      <div class="offerings-bottom-cta reveal">
+        <div class="bottom-cta-box">
+          <div class="bottom-cta-text">
+            <h3>Commission a custom look for your next event</h3>
+            <p>Our Abuja atelier accepts custom orders with worldwide express shipping.</p>
           </div>
-          <div class="artist-info">
-            <h3 class="artist-name">Eric</h3>
-            <p class="artist-role">Owner & Founder</p>
-            <div class="artist-actions">
-              <a href="#booking" class="btn btn-primary artist-book-btn">Book Artist</a>
-              <a href="https://www.instagram.com/tattooalchemyfl" target="_blank" rel="noopener noreferrer" class="artist-ig-link" aria-label="Eric on Instagram">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Artist 2 -->
-        <div class="artist-card reveal reveal-delay-2" id="artist-2">
-          <div class="artist-img-wrap">
-            <img src="artist/artist (1).png" alt="Shiloh - Realism & Dark Art" loading="lazy">
-          </div>
-          <div class="artist-info">
-            <h3 class="artist-name">Shiloh</h3>
-            <p class="artist-role">Realism & Dark Art</p>
-            <div class="artist-actions">
-              <a href="#booking" class="btn btn-primary artist-book-btn">Book Artist</a>
-              <a href="https://www.instagram.com/tattooalchemyfl" target="_blank" rel="noopener noreferrer" class="artist-ig-link" aria-label="Shiloh on Instagram">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Artist 3 -->
-        <div class="artist-card reveal reveal-delay-3" id="artist-3">
-          <div class="artist-img-wrap">
-            <img src="artist/artist (3).png" alt="Omar - Fine Line & Geometry" loading="lazy">
-          </div>
-          <div class="artist-info">
-            <h3 class="artist-name">Omar</h3>
-            <p class="artist-role">Fine Line & Geometry</p>
-            <div class="artist-actions">
-              <a href="#booking" class="btn btn-primary artist-book-btn">Book Artist</a>
-              <a href="https://www.instagram.com/tattooalchemyfl" target="_blank" rel="noopener noreferrer" class="artist-ig-link" aria-label="Omar on Instagram">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Artist 4 -->
-        <div class="artist-card reveal reveal-delay-4" id="artist-4">
-          <div class="artist-img-wrap">
-            <img src="artist/artist (4).png" alt="Luis - Blackwork & Ornamental" loading="lazy">
-          </div>
-          <div class="artist-info">
-            <h3 class="artist-name">Luis</h3>
-            <p class="artist-role">Blackwork & Ornamental</p>
-            <div class="artist-actions">
-              <a href="#booking" class="btn btn-primary artist-book-btn">Book Artist</a>
-              <a href="https://www.instagram.com/tattooalchemyfl" target="_blank" rel="noopener noreferrer" class="artist-ig-link" aria-label="Luis on Instagram">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-              </a>
-            </div>
+          <div class="bottom-cta-actions">
+            <a href="#inquiry" class="btn btn-primary">Start Custom Order</a>
+            <a href="https://wa.me/?text=Hello%20Gabbie%20Jayne,%20I%20would%20like%20to%20inquire%20about%20a%20custom%20garment" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-whatsapp">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.77.813 2.797.814 3.179 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.769-5.771zm3.376 8.163c-.144.405-.837.774-1.17.824-.312.045-.698.077-1.114-.056-.25-.08-.574-.183-.984-.361-1.748-.758-2.883-2.525-2.971-2.642-.087-.117-.714-.949-.714-1.809 0-.86.449-1.282.609-1.456.16-.174.349-.218.465-.218.117 0 .233.001.334.006.107.005.25-.041.391.298.144.349.494 1.203.538 1.29.043.088.073.19.014.305-.058.117-.087.19-.174.29-.088.102-.185.228-.264.306-.088.087-.18.182-.077.359.102.174.455.75 0.978 1.215.672.598 1.238.784 1.413.871.175.087.277.073.379-.044.102-.117.436-.508.552-.682.117-.174.233-.146.393-.087.16.058 1.018.48 1.193.567.175.087.291.131.334.204.043.073.043.42-.101.825z"/></svg>
+              Chat on WhatsApp
+            </a>
           </div>
         </div>
       </div>
@@ -305,45 +353,248 @@
   </section>
 
   <!-- ============================================================
-       PORTFOLIO GALLERY
+       LOOKBOOK
        ============================================================ -->
-  <section class="portfolio-section section-padding" id="portfolio">
+  <section class="lookbook-section section-padding" id="lookbook">
     <div class="container">
-      <div class="portfolio-header reveal">
-        <div class="diamond-divider">
-          <div class="diamond-icon"></div>
+      <div class="lookbook-header reveal">
+        <div class="brand-divider">
+          <span class="divider-line"></span>
+          <span class="divider-text">PORTFOLIO</span>
+          <span class="divider-line"></span>
         </div>
-        <p class="section-label">Our Work</p>
-        <h2 class="section-title">Portfolio Gallery</h2>
+        <p class="section-label">Editorial Lookbook</p>
+        <h2 class="section-title">The Showcase</h2>
         <p class="section-subtitle">
-          Browse our latest work — every piece tells a unique story etched in ink.
+          Select any look to view details and inquire directly with our atelier.
+        </p>
+
+        <!-- Category Filters -->
+        <div class="lookbook-filters" id="lookbook-filters" role="tablist" aria-label="Lookbook categories">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true" aria-controls="lookbook-grid" id="tab-all">All Creations</button>
+          <button class="filter-btn" data-filter="kimonos-bubus" role="tab" aria-selected="false" aria-controls="lookbook-grid" id="tab-kimonos">Kimonos & Bubus</button>
+          <button class="filter-btn" data-filter="bespoke" role="tab" aria-selected="false" aria-controls="lookbook-grid" id="tab-bespoke">Bespoke Tailoring</button>
+          <button class="filter-btn" data-filter="made-to-order" role="tab" aria-selected="false" aria-controls="lookbook-grid" id="tab-made-to-order">Made-to-Order</button>
+          <button class="filter-btn" data-filter="editorial" role="tab" aria-selected="false" aria-controls="lookbook-grid" id="tab-editorial">Editorial</button>
+        </div>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="lookbook-grid" id="lookbook-grid" role="region" aria-label="Lookbook gallery">
+        
+        <!-- Item 1 -->
+        <div class="lookbook-card reveal reveal-delay-1" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View details for The Obsidian Silhouette (Bespoke Couture)" data-category="bespoke editorial" data-img="images/gabbiejayne_1775565742_3870047810599033313_4010638589.jpg" data-title="The Obsidian Silhouette" data-type="Bespoke Couture">
+          <div class="lookbook-img-wrap">
+            <img src="images/gabbiejayne_1775565742_3870047810599033313_4010638589.jpg" alt="The Obsidian Silhouette - Gabbie Jayne Couture" loading="lazy">
+            <div class="lookbook-overlay">
+              <span class="lookbook-tag">Bespoke Couture</span>
+              <h4 class="lookbook-name">The Obsidian Silhouette</h4>
+              <p class="lookbook-cta-text">Click to View</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="lookbook-card reveal reveal-delay-2" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View details for The Royal Bubu (Kimonos & Bubus)" data-category="kimonos-bubus" data-img="images/gabbiejayne_1775565742_3870047819633589270_4010638589.jpg" data-title="The Royal Bubu" data-type="Kimonos & Bubus">
+          <div class="lookbook-img-wrap">
+            <img src="images/gabbiejayne_1775565742_3870047819633589270_4010638589.jpg" alt="The Royal Bubu - Gabbie Jayne Silk Bubu" loading="lazy">
+            <div class="lookbook-overlay">
+              <span class="lookbook-tag">Kimonos & Bubus</span>
+              <h4 class="lookbook-name">The Royal Bubu</h4>
+              <p class="lookbook-cta-text">Click to View</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="lookbook-card reveal reveal-delay-3" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View details for The Statement Kimono (Made-to-Order)" data-category="made-to-order" data-img="images/gabbiejayne_1775565742_3870047823894976646_4010638589.jpg" data-title="The Statement Kimono" data-type="Made-to-Order">
+          <div class="lookbook-img-wrap">
+            <img src="images/gabbiejayne_1775565742_3870047823894976646_4010638589.jpg" alt="The Statement Kimono - Gabbie Jayne Resort Kimono" loading="lazy">
+            <div class="lookbook-overlay">
+              <span class="lookbook-tag">Made-to-Order</span>
+              <h4 class="lookbook-name">The Statement Kimono</h4>
+              <p class="lookbook-cta-text">Click to View</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="lookbook-card reveal reveal-delay-1" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View details for Architectural Gala Gown (Bespoke Tailoring)" data-category="bespoke editorial" data-img="images/gabbiejayne_1772473820_3844111010693131545_4010638589.jpg" data-title="Architectural Gala Gown" data-type="Bespoke Tailoring">
+          <div class="lookbook-img-wrap">
+            <img src="images/gabbiejayne_1772473820_3844111010693131545_4010638589.jpg" alt="Architectural Gala Gown - Custom Tailored Evening Wear" loading="lazy">
+            <div class="lookbook-overlay">
+              <span class="lookbook-tag">Bespoke Tailoring</span>
+              <h4 class="lookbook-name">Architectural Gala Gown</h4>
+              <p class="lookbook-cta-text">Click to View</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="lookbook-card reveal reveal-delay-2" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View details for Monochrome Tailored Set (Made-to-Order)" data-category="made-to-order" data-img="images/gabbiejayne_1772473820_3844110999158798053_4010638589.jpg" data-title="Monochrome Tailored Set" data-type="Made-to-Order">
+          <div class="lookbook-img-wrap">
+            <img src="images/gabbiejayne_1772473820_3844110999158798053_4010638589.jpg" alt="Monochrome Tailored Set - High Fashion Two Piece" loading="lazy">
+            <div class="lookbook-overlay">
+              <span class="lookbook-tag">Made-to-Order</span>
+              <h4 class="lookbook-name">Monochrome Tailored Set</h4>
+              <p class="lookbook-cta-text">Click to View</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="lookbook-card reveal reveal-delay-3" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View details for The Empress Cut (Bespoke Tailoring)" data-category="bespoke" data-img="images/gabbiejayne_1772473820_3844111005869730340_4010638589.jpg" data-title="The Empress Cut" data-type="Bespoke Tailoring">
+          <div class="lookbook-img-wrap">
+            <img src="images/gabbiejayne_1772473820_3844111005869730340_4010638589.jpg" alt="The Empress Cut - Bespoke Evening Silhouette" loading="lazy">
+            <div class="lookbook-overlay">
+              <span class="lookbook-tag">Bespoke Tailoring</span>
+              <h4 class="lookbook-name">The Empress Cut</h4>
+              <p class="lookbook-cta-text">Click to View</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="lookbook-card reveal reveal-delay-1" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View details for The Ethereal Bubu (Kimonos & Bubus)" data-category="kimonos-bubus" data-img="images/gabbiejayne_1772473820_3844111009610993037_4010638589.jpg" data-title="The Ethereal Bubu" data-type="Kimonos & Bubus">
+          <div class="lookbook-img-wrap">
+            <img src="images/gabbiejayne_1772473820_3844111009610993037_4010638589.jpg" alt="The Ethereal Bubu - Luxury Flowing African Silhouette" loading="lazy">
+            <div class="lookbook-overlay">
+              <span class="lookbook-tag">Kimonos & Bubus</span>
+              <h4 class="lookbook-name">The Ethereal Bubu</h4>
+              <p class="lookbook-cta-text">Click to View</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="lookbook-card reveal reveal-delay-2" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View details for Noir Couture Series (Editorial)" data-category="editorial" data-img="images/gabbiejayne_1772473820_3844111011297099857_4010638589.jpg" data-title="Noir Couture Series" data-type="Editorial">
+          <div class="lookbook-img-wrap">
+            <img src="images/gabbiejayne_1772473820_3844111011297099857_4010638589.jpg" alt="Noir Couture Series - Editorial African Fashion" loading="lazy">
+            <div class="lookbook-overlay">
+              <span class="lookbook-tag">Editorial</span>
+              <h4 class="lookbook-name">Noir Couture Series</h4>
+              <p class="lookbook-cta-text">Click to View</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 9 -->
+        <div class="lookbook-card reveal reveal-delay-3" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View details for Resort Glamour Robe (Kimonos & Bubus)" data-category="made-to-order kimonos-bubus" data-img="images/gabbiejayne_1758559259_3727387680611825160_4010638589.jpg" data-title="Resort Glamour Robe" data-type="Kimonos & Bubus">
+          <div class="lookbook-img-wrap">
+            <img src="images/gabbiejayne_1758559259_3727387680611825160_4010638589.jpg" alt="Resort Glamour Robe - Made-to-Order Silk Robe" loading="lazy">
+            <div class="lookbook-overlay">
+              <span class="lookbook-tag">Kimonos & Bubus</span>
+              <h4 class="lookbook-name">Resort Glamour Robe</h4>
+              <p class="lookbook-cta-text">Click to View</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 10 -->
+        <div class="lookbook-card reveal reveal-delay-1" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View details for Structured Corset Gown (Bespoke Tailoring)" data-category="bespoke" data-img="images/gabbiejayne_1758559259_3727387680611826749_4010638589.jpg" data-title="Structured Corset Gown" data-type="Bespoke Tailoring">
+          <div class="lookbook-img-wrap">
+            <img src="images/gabbiejayne_1758559259_3727387680611826749_4010638589.jpg" alt="Structured Corset Gown - Bespoke Corsetry and Tailoring" loading="lazy">
+            <div class="lookbook-overlay">
+              <span class="lookbook-tag">Bespoke Tailoring</span>
+              <h4 class="lookbook-name">Structured Corset Gown</h4>
+              <p class="lookbook-cta-text">Click to View</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 11 -->
+        <div class="lookbook-card reveal reveal-delay-2" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View details for Monochrome Chic Separates (Made-to-Order)" data-category="made-to-order editorial" data-img="images/gabbiejayne_1758559259_3727387680620157429_4010638589.jpg" data-title="Monochrome Chic Separates" data-type="Made-to-Order">
+          <div class="lookbook-img-wrap">
+            <img src="images/gabbiejayne_1758559259_3727387680620157429_4010638589.jpg" alt="Monochrome Chic Separates - Tailored African Luxury" loading="lazy">
+            <div class="lookbook-overlay">
+              <span class="lookbook-tag">Made-to-Order</span>
+              <h4 class="lookbook-name">Monochrome Chic Separates</h4>
+              <p class="lookbook-cta-text">Click to View</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 12 -->
+        <div class="lookbook-card reveal reveal-delay-3" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View details for The Majesty Drape (Kimonos & Bubus)" data-category="kimonos-bubus" data-img="images/gabbiejayne_1758559259_3727387680938974522_4010638589.jpg" data-title="The Majesty Drape" data-type="Kimonos & Bubus">
+          <div class="lookbook-img-wrap">
+            <img src="images/gabbiejayne_1758559259_3727387680938974522_4010638589.jpg" alt="The Majesty Drape - African Couture Kimono" loading="lazy">
+            <div class="lookbook-overlay">
+              <span class="lookbook-tag">Kimonos & Bubus</span>
+              <h4 class="lookbook-name">The Majesty Drape</h4>
+              <p class="lookbook-cta-text">Click to View</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="lookbook-footer-cta reveal">
+        <p>Explore styling reels and behind-the-scenes fittings on Instagram:</p>
+        <a href="https://www.instagram.com/gabbiejayne" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          @gabbiejayne on Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       THE CRAFT / ATELIER PROCESS
+       ============================================================ -->
+  <section class="craft-section section-padding" id="craft">
+    <div class="container">
+      <div class="section-header-center reveal">
+        <div class="brand-divider">
+          <span class="divider-line"></span>
+          <span class="divider-text">THE PROCESS</span>
+          <span class="divider-line"></span>
+        </div>
+        <p class="section-label">How We Create</p>
+        <h2 class="section-title">The Bespoke Journey</h2>
+        <p class="section-subtitle">
+          An intimate, seamless experience from initial concept to your doorstep.
         </p>
       </div>
 
-      <div class="portfolio-grid">
-        <div class="portfolio-item reveal reveal-delay-1" id="portfolio-item-1">
-          <img src="images/portfolio-1.jpg" alt="Skull and roses sleeve tattoo" loading="lazy">
-          <div class="portfolio-overlay"><span>Skull & Roses Sleeve</span></div>
+      <div class="craft-steps-grid">
+        <div class="craft-step reveal reveal-delay-1">
+          <div class="step-badge">01</div>
+          <div class="step-content">
+            <h3 class="step-title">Consultation</h3>
+            <p class="step-desc">
+              Share your event date, desired silhouette, and style preferences via WhatsApp or virtual consultation.
+            </p>
+          </div>
         </div>
-        <div class="portfolio-item reveal reveal-delay-2" id="portfolio-item-2">
-          <img src="images/portfolio-2.jpg" alt="Compass nautical tattoo" loading="lazy">
-          <div class="portfolio-overlay"><span>Nautical Compass</span></div>
+
+        <div class="craft-step reveal reveal-delay-2">
+          <div class="step-badge">02</div>
+          <div class="step-content">
+            <h3 class="step-title">Measurements</h3>
+            <p class="step-desc">
+              Submit your dimensions via our simple measurement guide and select your preferred luxury fabric.
+            </p>
+          </div>
         </div>
-        <div class="portfolio-item reveal reveal-delay-3" id="portfolio-item-3">
-          <img src="images/portfolio-3.jpg" alt="Floral thigh tattoo" loading="lazy">
-          <div class="portfolio-overlay"><span>Peony Floral</span></div>
+
+        <div class="craft-step reveal reveal-delay-3">
+          <div class="step-badge">03</div>
+          <div class="step-content">
+            <h3 class="step-title">Atelier Tailoring</h3>
+            <p class="step-desc">
+              Your garment is hand-patterned, cut, and tailored by master artisans in our Abuja studio.
+            </p>
+          </div>
         </div>
-        <div class="portfolio-item reveal reveal-delay-1" id="portfolio-item-4">
-          <img src="images/portfolio-4.jpg" alt="Wolf portrait tattoo" loading="lazy">
-          <div class="portfolio-overlay"><span>Wolf Realism</span></div>
-        </div>
-        <div class="portfolio-item reveal reveal-delay-2" id="portfolio-item-5">
-          <img src="images/portfolio-5.jpg" alt="Sacred geometry back tattoo" loading="lazy">
-          <div class="portfolio-overlay"><span>Sacred Geometry</span></div>
-        </div>
-        <div class="portfolio-item reveal reveal-delay-3" id="portfolio-item-6">
-          <img src="images/portfolio-6.jpg" alt="Eagle traditional tattoo" loading="lazy">
-          <div class="portfolio-overlay"><span>American Traditional</span></div>
+
+        <div class="craft-step reveal reveal-delay-4">
+          <div class="step-badge">04</div>
+          <div class="step-content">
+            <h3 class="step-title">Worldwide Delivery</h3>
+            <p class="step-desc">
+              Following thorough quality inspection, your piece is dispatched via tracked express courier.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -354,14 +605,16 @@
        ============================================================ -->
   <section class="testimonials-section section-padding" id="testimonials">
     <div class="container">
-      <div class="testimonials-header reveal">
-        <div class="diamond-divider">
-          <div class="diamond-icon"></div>
+      <div class="section-header-center reveal">
+        <div class="brand-divider">
+          <span class="divider-line"></span>
+          <span class="divider-text">CLIENT REVIEWS</span>
+          <span class="divider-line"></span>
         </div>
-        <p class="section-label">Client Reviews</p>
-        <h2 class="section-title">What They Say</h2>
+        <p class="section-label">Clientele</p>
+        <h2 class="section-title">Worn Worldwide</h2>
         <p class="section-subtitle">
-          Don't take our word for it — hear from the people who wear our art.
+          Feedback from clients across London, Abuja, Lagos, and Atlanta.
         </p>
       </div>
 
@@ -370,20 +623,16 @@
         <div class="testimonial-card reveal reveal-delay-1" id="testimonial-1">
           <div class="testimonial-quote">&ldquo;</div>
           <div class="testimonial-stars">
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
           </div>
           <p class="testimonial-text">
-            Absolutely blown away by the detail in my sleeve. The artists at Alchemy Tattoo took my rough idea and transformed it into something beyond what I ever imagined. Worth every penny.
+            &ldquo;My bespoke gown for a London gala was breathtaking. The fit was absolute perfection, and the drape felt like pure royalty.&rdquo;
           </p>
           <div class="testimonial-author">
-            <div class="testimonial-avatar">M</div>
+            <div class="testimonial-avatar">AO</div>
             <div class="testimonial-info">
-              <h5>Marcus Reed</h5>
-              <span>Full Sleeve — Realism</span>
+              <h5>Adesuwa O.</h5>
+              <span>London, UK &bull; Bespoke Gala Gown</span>
             </div>
           </div>
         </div>
@@ -392,20 +641,16 @@
         <div class="testimonial-card reveal reveal-delay-2" id="testimonial-2">
           <div class="testimonial-quote">&ldquo;</div>
           <div class="testimonial-stars">
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
           </div>
           <p class="testimonial-text">
-            First tattoo experience and I couldn't have picked a better studio. They made me feel completely comfortable, explained everything, and the result is absolutely stunning. Already planning my next piece!
+            &ldquo;The Kimonos and Bubus are in a league of their own. Luxurious fabric, lightweight, and so effortlessly chic. Strangers stop me constantly!&rdquo;
           </p>
           <div class="testimonial-author">
-            <div class="testimonial-avatar">S</div>
+            <div class="testimonial-avatar">CN</div>
             <div class="testimonial-info">
-              <h5>Sarah Chen</h5>
-              <span>Floral Half-Sleeve</span>
+              <h5>Chioma N.</h5>
+              <span>Abuja, Nigeria &bull; Signature Bubu</span>
             </div>
           </div>
         </div>
@@ -414,20 +659,16 @@
         <div class="testimonial-card reveal reveal-delay-3" id="testimonial-3">
           <div class="testimonial-quote">&ldquo;</div>
           <div class="testimonial-stars">
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
           </div>
           <p class="testimonial-text">
-            Third time coming back to Alchemy Tattoo and the quality is consistently incredible. The studio is immaculate, the vibe is perfect, and the artists truly care about getting it right.
+            &ldquo;Ordered from Atlanta and the measurement guide was seamless. The clothes arrived earlier than expected and fit like a second skin.&rdquo;
           </p>
           <div class="testimonial-author">
-            <div class="testimonial-avatar">J</div>
+            <div class="testimonial-avatar">TA</div>
             <div class="testimonial-info">
-              <h5>Jake Morrison</h5>
-              <span>Japanese Back Piece</span>
+              <h5>Tolani A.</h5>
+              <span>Atlanta, USA &bull; Made-to-Order</span>
             </div>
           </div>
         </div>
@@ -436,83 +677,135 @@
   </section>
 
   <!-- ============================================================
-       BOOKING / CONTACT FORM
+       INQUIRY & BESPOKE ORDER FORM
        ============================================================ -->
-  <section class="booking-section section-padding" id="booking">
+  <section class="inquiry-section section-padding" id="inquiry">
     <div class="container">
-      <div class="booking-grid">
-        <div class="booking-info reveal">
-          <div class="diamond-divider" style="justify-content: flex-start;">
-            <div class="diamond-icon"></div>
+      <div class="inquiry-grid">
+        <div class="inquiry-info reveal">
+          <div class="brand-divider" style="justify-content: flex-start;">
+            <span class="divider-line" style="max-width: 40px;"></span>
+            <span class="divider-text">CONNECT</span>
           </div>
-          <p class="section-label">Get In Touch</p>
-          <h2 class="section-title">Book Your<br><span class="accent-text">Session</span></h2>
-          <p class="section-subtitle">
-            Ready to bring your idea to life? Fill out the form and one of our artists will get back to you within 24 hours to discuss your concept.
+          <p class="section-label">Order & Inquiries</p>
+          <h2 class="section-title">Begin Your <span class="serif-accent">Custom Order</span></h2>
+          <p class="inquiry-lead">
+            Contact us for Made-to-Order pieces, Bespoke commissions, or sizing consultations.
           </p>
 
-          <div class="contact-detail">
-            <div class="contact-detail-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div class="contact-details-list">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact-text">
+                <h5>Atelier Location</h5>
+                <p>Abuja, Nigeria (Private Consultations by Appointment)</p>
+              </div>
             </div>
-            <div class="contact-detail-text">
-              <h5>Studio Location</h5>
-              <p>142 Ink Avenue, Brooklyn, NY 11201</p>
-            </div>
-          </div>
 
-          <div class="contact-detail">
-            <div class="contact-detail-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              </div>
+              <div class="contact-text">
+                <h5>Instagram</h5>
+                <p><a href="https://www.instagram.com/gabbiejayne" target="_blank" rel="noopener noreferrer">@gabbiejayne</a></p>
+              </div>
             </div>
-            <div class="contact-detail-text">
-              <h5>Phone</h5>
-              <p>+1 (718) 555-0142</p>
-            </div>
-          </div>
 
-          <div class="contact-detail">
-            <div class="contact-detail-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.77.813 2.797.814 3.179 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.769-5.771zm3.376 8.163c-.144.405-.837.774-1.17.824-.312.045-.698.077-1.114-.056-.25-.08-.574-.183-.984-.361-1.748-.758-2.883-2.525-2.971-2.642-.087-.117-.714-.949-.714-1.809 0-.86.449-1.282.609-1.456.16-.174.349-.218.465-.218.117 0 .233.001.334.006.107.005.25-.041.391.298.144.349.494 1.203.538 1.29.043.088.073.19.014.305-.058.117-.087.19-.174.29-.088.102-.185.228-.264.306-.088.087-.18.182-.077.359.102.174.455.75 0.978 1.215.672.598 1.238.784 1.413.871.175.087.277.073.379-.044.102-.117.436-.508.552-.682.117-.174.233-.146.393-.087.16.058 1.018.48 1.193.567.175.087.291.131.334.204.043.073.043.42-.101.825z"/></svg>
+              </div>
+              <div class="contact-text">
+                <h5>WhatsApp Direct</h5>
+                <p><a href="https://wa.me/?text=Hello%20Gabbie%20Jayne,%20I%20would%20like%20to%20inquire%20about%20a%20garment" target="_blank" rel="noopener noreferrer">Chat with our Stylist</a></p>
+              </div>
             </div>
-            <div class="contact-detail-text">
-              <h5>Working Hours</h5>
-              <p>Tue — Sat: 11am — 9pm</p>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              </div>
+              <div class="contact-text">
+                <h5>Worldwide Shipping</h5>
+                <p>Express Tracked Courier (3–5 Business Days)</p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="booking-form reveal reveal-delay-2" id="booking-form">
+        <div class="inquiry-form-card reveal reveal-delay-2" id="inquiry-form-container">
           <form id="contact-form" novalidate>
+            <div class="form-header">
+              <h3>Inquiry Form</h3>
+              <p>Submit your details and our atelier team will respond promptly.</p>
+            </div>
+
             <div class="form-row">
               <div class="form-group">
-                <label for="form-name">Your Name <span class="required-star">*</span></label>
-                <input type="text" id="form-name" name="name" placeholder="John Doe" required>
-                <span class="form-error-msg" id="name-error"></span>
+                <label for="form-name">Full Name <span class="required-star" aria-hidden="true">*</span></label>
+                <input type="text" id="form-name" name="name" placeholder="Your name" required aria-required="true" aria-describedby="name-error">
+                <span class="form-error-msg" id="name-error" role="alert"></span>
               </div>
               <div class="form-group">
-                <label for="form-email">Email Address <span class="required-star">*</span></label>
-                <input type="email" id="form-email" name="email" placeholder="john@example.com" required>
-                <span class="form-error-msg" id="email-error"></span>
+                <label for="form-email">Email Address <span class="required-star" aria-hidden="true">*</span></label>
+                <input type="email" id="form-email" name="email" placeholder="Your email" required aria-required="true" aria-describedby="email-error">
+                <span class="form-error-msg" id="email-error" role="alert"></span>
               </div>
             </div>
+
             <div class="form-row">
               <div class="form-group">
-                <label for="form-phone">Phone Number</label>
-                <input type="tel" id="form-phone" name="phone" placeholder="+1 (555) 000-0000">
+                <label for="form-phone">WhatsApp / Phone <span class="required-star" aria-hidden="true">*</span></label>
+                <input type="tel" id="form-phone" name="phone" placeholder="+234 800 000 0000" required aria-required="true" aria-describedby="phone-hint phone-error">
+                <span class="form-hint" id="phone-hint">Include country code (e.g. +234 for NG, +44 for UK, +1 for US)</span>
+                <span class="form-error-msg" id="phone-error" role="alert"></span>
               </div>
               <div class="form-group">
-                <label for="form-date">Preferred Date</label>
-                <input type="date" id="form-date" name="date">
+                <label for="form-service">Category <span class="required-star" aria-hidden="true">*</span></label>
+                <select id="form-service" name="service" required aria-required="true" aria-describedby="service-error">
+                  <option value="">Select Category</option>
+                  <option value="Made-to-Order Pieces">Made-to-Order</option>
+                  <option value="Bespoke Tailoring (Couture / Bridal)">Bespoke Tailoring</option>
+                  <option value="Ready-to-Wear Kimonos & Bubus">Ready-to-Wear Kimonos & Bubus</option>
+                  <option value="Styling Consultation">Styling Consultation</option>
+                  <option value="General Inquiry">General Inquiry</option>
+                </select>
+                <span class="form-error-msg" id="service-error" role="alert"></span>
               </div>
             </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-country">City & Country</label>
+                <input type="text" id="form-country" name="country" placeholder="e.g. Abuja, London, Atlanta">
+              </div>
+              <div class="form-group">
+                <label for="form-date">Target Date (Optional)</label>
+                <input type="date" id="form-date" name="date" aria-describedby="date-hint">
+                <span class="form-hint" id="date-hint">Desired completion or milestone date</span>
+              </div>
+            </div>
+
             <div class="form-group">
-              <label for="form-idea">Tattoo Idea</label>
-              <textarea id="form-idea" name="idea" placeholder="Describe your tattoo idea, preferred style, size, and placement..." rows="5"></textarea>
+              <label for="form-idea">Garment Details or Vision</label>
+              <textarea id="form-idea" name="idea" placeholder="Tell us about the piece you have in mind or reference from our lookbook..." rows="4"></textarea>
             </div>
+
             <button type="submit" class="form-submit" id="form-submit-btn">
-              Send Request
+              Submit Inquiry
             </button>
+
+            <div class="form-alt-actions">
+              <button type="button" class="form-clear-btn" id="form-clear-btn">Clear Form</button>
+              <span class="alt-or" aria-hidden="true">or</span>
+              <a href="https://wa.me/?text=Hello%20Gabbie%20Jayne,%20I%20would%20like%20to%20order%20a%20piece" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-direct" aria-label="Chat directly on WhatsApp with our stylist">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.77.813 2.797.814 3.179 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.769-5.771zm3.376 8.163c-.144.405-.837.774-1.17.824-.312.045-.698.077-1.114-.056-.25-.08-.574-.183-.984-.361-1.748-.758-2.883-2.525-2.971-2.642-.087-.117-.714-.949-.714-1.809 0-.86.449-1.282.609-1.456.16-.174.349-.218.465-.218.117 0 .233.001.334.006.107.005.25-.041.391.298.144.349.494 1.203.538 1.29.043.088.073.19.014.305-.058.117-.087.19-.174.29-.088.102-.185.228-.264.306-.088.087-.18.182-.077.359.102.174.455.75 0.978 1.215.672.598 1.238.784 1.413.871.175.087.277.073.379-.044.102-.117.436-.508.552-.682.117-.174.233-.146.393-.087.16.058 1.018.48 1.193.567.175.087.291.131.334.204.043.073.043.42-.101.825z"/></svg>
+                Chat on WhatsApp
+              </a>
+            </div>
           </form>
         </div>
       </div>
@@ -520,47 +813,52 @@
       <!-- FAQ Accordion -->
       <div class="faq-container reveal">
         <div class="faq-header">
+          <div class="brand-divider">
+            <span class="divider-line" aria-hidden="true"></span>
+            <span class="divider-text">FAQ</span>
+            <span class="divider-line" aria-hidden="true"></span>
+          </div>
           <h3 class="faq-title">Frequently Asked Questions</h3>
-          <p class="faq-subtitle">Everything you need to know before booking your tattoo session.</p>
+          <p class="faq-subtitle">Essential details about sizing, production timelines, and worldwide shipping.</p>
         </div>
-        <div class="faq-grid">
+        <div class="faq-grid" role="region" aria-label="FAQ Accordion">
           <div class="faq-item">
-            <button class="faq-question" type="button">
-              <span>Do I need an appointment or do you accept walk-ins?</span>
-              <svg class="faq-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <button class="faq-question" type="button" id="faq-q-1" aria-expanded="false" aria-controls="faq-ans-1">
+              <span>What is the difference between Made-to-Order and Bespoke?</span>
+              <svg class="faq-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             </button>
-            <div class="faq-answer">
-              <p>We highly recommend booking an appointment in advance to secure your preferred artist. However, we do accept walk-ins on Saturdays depending on artist availability.</p>
+            <div class="faq-answer" id="faq-ans-1" role="region" aria-labelledby="faq-q-1">
+              <p><strong>Made-to-Order</strong> pieces are chosen from our signature catalog and tailored to your measurements. <strong>Bespoke Tailoring</strong> is a completely custom 1-of-1 design crafted from scratch for your specific event.</p>
             </div>
           </div>
 
           <div class="faq-item">
-            <button class="faq-question" type="button">
-              <span>What is your deposit and cancellation policy?</span>
-              <svg class="faq-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <button class="faq-question" type="button" id="faq-q-2" aria-expanded="false" aria-controls="faq-ans-2">
+              <span>How do I provide my measurements if I am outside Nigeria?</span>
+              <svg class="faq-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             </button>
-            <div class="faq-answer">
-              <p>A $100 non-refundable deposit is required to lock in your session date. Deposits go directly toward the final cost of your tattoo. Rescheduling requires at least 48 hours advance notice.</p>
+            <div class="faq-answer" id="faq-ans-2" role="region" aria-labelledby="faq-q-2">
+              <p>We provide an illustrated measurement guide that makes taking your dimensions easy with a measuring tape. You can also book a quick virtual video consultation or <a href="https://wa.me/?text=Hello%20Gabbie%20Jayne,%20please%20send%20me%20the%20sizing%20chart" target="_blank" rel="noopener noreferrer" style="text-decoration: underline; color: #ffffff;">request our sizing chart on WhatsApp</a>.</p>
             </div>
           </div>
 
           <div class="faq-item">
-            <button class="faq-question" type="button">
-              <span>How should I prepare for my tattoo session?</span>
-              <svg class="faq-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <button class="faq-question" type="button" id="faq-q-3" aria-expanded="false" aria-controls="faq-ans-3">
+              <span>What are the production and delivery timelines?</span>
+              <svg class="faq-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             </button>
-            <div class="faq-answer">
-              <p>Get a full night's sleep, stay hydrated, and eat a solid meal prior to arriving. Wear comfortable clothing that grants easy access to the area being tattooed.</p>
+            <div class="faq-answer" id="faq-ans-3" role="region" aria-labelledby="faq-q-3">
+              <p>Ready-to-Wear Kimonos & Bubus ship within 3–7 business days. Made-to-Order pieces take 7–14 days. Bespoke couture takes 3–6 weeks. Rush orders are available upon request.</p>
             </div>
           </div>
 
           <div class="faq-item">
-            <button class="faq-question" type="button">
-              <span>What are the age requirements for getting tattooed?</span>
-              <svg class="faq-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <button class="faq-question" type="button" id="faq-q-4" aria-expanded="false" aria-controls="faq-ans-4">
+              <span>Do you ship internationally from Abuja, Nigeria?</span>
+              <svg class="faq-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             </button>
-            <div class="faq-answer">
-              <p>You must be at least 18 years of age with a valid government-issued photo ID. We strict studio policy: no tattoos for minors under 18 under any circumstances.</p>
+            <div class="faq-answer" id="faq-ans-4" role="region" aria-labelledby="faq-q-4">
+              <p>Yes. We ship worldwide to the UK, US, Canada, Europe, and across Africa via tracked DHL Express (3–5 business days delivery).</p>
             </div>
           </div>
         </div>
@@ -569,77 +867,128 @@
   </section>
 
   <!-- ============================================================
+       INSTAGRAM BANNER
+       ============================================================ -->
+  <section class="social-banner-section">
+    <div class="container">
+      <div class="social-banner-inner reveal">
+        <div class="social-banner-text">
+          <span class="social-eyebrow">INSTAGRAM</span>
+          <h2 class="social-banner-title">Follow @gabbiejayne</h2>
+          <p>Discover new drops, styling guides, and fittings from our Abuja atelier.</p>
+        </div>
+        <a href="https://www.instagram.com/gabbiejayne" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-ig-large">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          Follow @gabbiejayne
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============================================================
        FOOTER
        ============================================================ -->
-  <footer class="footer" id="footer">
+  <footer class="footer" id="footer" role="contentinfo">
     <div class="container">
       <div class="footer-top">
         <div class="footer-brand">
-          <a href="#hero" class="footer-logo-link"><img src="images/alchemy-logo.png" alt="Alchemy Tattoo" class="footer-logo-img"></a>
-          <p>
-            An indie tattoo studio dedicated to creating bold, unique art that lasts a lifetime. Every session is a collaboration between artist and canvas.
+          <a href="#hero" class="footer-brand-title">GABBIE JAYNE</a>
+          <p class="footer-brand-tagline">LUXURY AFRICAN COUTURE &bull; ABUJA, NIGERIA</p>
+          <p class="footer-brand-desc">
+            Contemporary African luxury maison crafting Made-to-Order pieces, Bespoke Tailoring, and Ready-to-Wear Kimonos & Bubus.
           </p>
           <div class="footer-social">
-            <a href="https://www.instagram.com/tattooalchemyfl" target="_blank" rel="noopener noreferrer" aria-label="Instagram" id="social-instagram">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            <a href="https://www.instagram.com/gabbiejayne" target="_blank" rel="noopener noreferrer" aria-label="Instagram" id="social-instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
             </a>
-            <a href="#" aria-label="Facebook" id="social-facebook">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
-            </a>
-            <a href="#" aria-label="Twitter" id="social-twitter">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
-            </a>
-            <a href="#" aria-label="TikTok" id="social-tiktok">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1 0-5.78 2.92 2.92 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 3 15.57 6.33 6.33 0 0 0 9.37 22a6.33 6.33 0 0 0 6.38-6.2V9.41a8.16 8.16 0 0 0 4.84 1.58V7.55a4.78 4.78 0 0 1-1-.86z"/></svg>
+            <a href="https://wa.me/?text=Hello%20Gabbie%20Jayne" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" id="social-whatsapp">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.77.813 2.797.814 3.179 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.769-5.771zm3.376 8.163c-.144.405-.837.774-1.17.824-.312.045-.698.077-1.114-.056-.25-.08-.574-.183-.984-.361-1.748-.758-2.883-2.525-2.971-2.642-.087-.117-.714-.949-.714-1.809 0-.86.449-1.282.609-1.456.16-.174.349-.218.465-.218.117 0 .233.001.334.006.107.005.25-.041.391.298.144.349.494 1.203.538 1.29.043.088.073.19.014.305-.058.117-.087.19-.174.29-.088.102-.185.228-.264.306-.088.087-.18.182-.077.359.102.174.455.75 0.978 1.215.672.598 1.238.784 1.413.871.175.087.277.073.379-.044.102-.117.436-.508.552-.682.117-.174.233-.146.393-.087.16.058 1.018.48 1.193.567.175.087.291.131.334.204.043.073.043.42-.101.825z"/></svg>
             </a>
           </div>
         </div>
 
         <div class="footer-col">
-          <h4>Quick Links</h4>
+          <h4>Navigation</h4>
           <ul>
             <li><a href="#hero">Home</a></li>
-            <li><a href="#why">About Us</a></li>
-            <li><a href="#artists">Artists</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#booking">Contact</a></li>
+            <li><a href="#maison">The Maison</a></li>
+            <li><a href="#offerings">Offerings</a></li>
+            <li><a href="#lookbook">Lookbook</a></li>
+            <li><a href="#craft">The Craft</a></li>
+            <li><a href="#inquiry">Inquire</a></li>
           </ul>
         </div>
 
         <div class="footer-col">
-          <h4>Services</h4>
+          <h4>Collections</h4>
           <ul>
-            <li><a href="#services">Custom Tattoo</a></li>
-            <li><a href="#services">Cover-Up</a></li>
-            <li><a href="#services">Piercing</a></li>
-            <li><a href="#services">Tattoo Removal</a></li>
-            <li><a href="#services">Consultation</a></li>
+            <li><a href="#lookbook">Ready-to-Wear Kimonos</a></li>
+            <li><a href="#lookbook">Luxury African Bubus</a></li>
+            <li><a href="#lookbook">Bespoke Couture</a></li>
+            <li><a href="#lookbook">Made-to-Order Pieces</a></li>
           </ul>
         </div>
 
         <div class="footer-col">
-          <h4>Studio</h4>
+          <h4>Atelier & Care</h4>
           <ul>
-            <li><a href="#">Aftercare Guide</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Gift Cards</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#inquiry">Measurement Guide</a></li>
+            <li><a href="#inquiry">Worldwide Shipping</a></li>
+            <li><a href="#inquiry">Fabric Care</a></li>
+            <li><a href="https://www.instagram.com/gabbiejayne" target="_blank" rel="noopener noreferrer">Instagram: @gabbiejayne</a></li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2025 <a href="#hero">Alchemy Tattoo</a>. All rights reserved.</p>
-        <p>Crafted with ink & code</p>
+        <p>&copy; 2026 <a href="#hero">Gabbie Jayne</a>. All rights reserved. Abuja, Nigeria.</p>
+        <p class="footer-credit">Handcrafted Luxury African Couture</p>
       </div>
     </div>
   </footer>
 
+  <!-- ============================================================
+       LIGHTBOX / DETAIL MODAL (WCAG 2.1 Dialog)
+       ============================================================ -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="lightbox-title" aria-describedby="lightbox-desc">
+    <div class="lightbox-backdrop" id="lightbox-backdrop" aria-hidden="true"></div>
+    <div class="lightbox-dialog" tabindex="-1" id="lightbox-dialog">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close modal dialog" type="button">&times;</button>
+      <div class="lightbox-body">
+        <div class="lightbox-img-pane">
+          <img src="" alt="Garment preview" id="lightbox-img">
+        </div>
+        <div class="lightbox-info-pane">
+          <span class="lightbox-category" id="lightbox-cat">CATEGORY</span>
+          <h3 class="lightbox-title" id="lightbox-title">Piece Title</h3>
+          <p class="lightbox-desc" id="lightbox-desc">
+            Handcrafted with exceptional African tailoring and luxury textiles. Available in custom dimensions and made-to-order sizing.
+          </p>
+          <div class="lightbox-features">
+            <div class="lb-feat"><span>Craft:</span> Tailored in Abuja, Nigeria</div>
+            <div class="lb-feat"><span>Availability:</span> Made-to-Order & Bespoke</div>
+            <div class="lb-feat"><span>Turnaround:</span> 7–14 days (Express Delivery)</div>
+            <div class="lb-feat"><span>Shipping:</span> Tracked Worldwide Courier</div>
+          </div>
+          <div class="lightbox-actions">
+            <a href="#inquiry" class="btn btn-primary" id="lightbox-inquire-btn">Inquire for this Look</a>
+            <a href="https://wa.me/?text=Hello%20Gabbie%20Jayne,%20I%20would%20like%20to%20inquire%20about%20a%20look" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="lightbox-whatsapp-btn" aria-label="Chat on WhatsApp about this look">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.77.813 2.797.814 3.179 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.769-5.771zm3.376 8.163c-.144.405-.837.774-1.17.824-.312.045-.698.077-1.114-.056-.25-.08-.574-.183-.984-.361-1.748-.758-2.883-2.525-2.971-2.642-.087-.117-.714-.949-.714-1.809 0-.86.449-1.282.609-1.456.16-.174.349-.218.465-.218.117 0 .233.001.334.006.107.005.25-.041.391.298.144.349.494 1.203.538 1.29.043.088.073.19.014.305-.058.117-.087.19-.174.29-.088.102-.185.228-.264.306-.088.087-.18.182-.077.359.102.174.455.75 0.978 1.215.672.598 1.238.784 1.413.871.175.087.277.073.379-.044.102-.117.436-.508.552-.682.117-.174.233-.146.393-.087.16.058 1.018.48 1.193.567.175.087.291.131.334.204.043.073.043.42-.101.825z"/></svg>
+              Chat on WhatsApp
+            </a>
+            <a href="https://www.instagram.com/gabbiejayne" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="border-color: var(--border-subtle); color: var(--text-muted);" aria-label="View Gabbie Jayne on Instagram">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              View on Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Back to Top Button -->
-  <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top" type="button">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
   </button>
 
   <script src="script.js"></script>
