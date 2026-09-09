@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Dynamic WhatsApp inquiry message
     if (lightboxWhatsappBtn) {
       const waMsg = encodeURIComponent(`Hello Gabbie Jane, I would like to inquire about the "${title}" (${type}) from the lookbook.`);
-      lightboxWhatsappBtn.href = `https://wa.me/?text=${waMsg}`;
+      lightboxWhatsappBtn.href = `https://wa.me/2349017634909?text=${waMsg}`;
     }
 
     lightboxModal.classList.add('open');
